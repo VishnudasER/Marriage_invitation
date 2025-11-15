@@ -24,7 +24,7 @@ const locations: Location[] = [
     address: '456 Celebration Avenue, City Name, State 12345',
     time: '1:00 PM - 3:00 PM',
     mapsUrl: 'https://www.google.com/maps/search/banquet+halls+near+me',
-    icon: '🏛️',
+    icon: '🏨',
   },
 ];
 
