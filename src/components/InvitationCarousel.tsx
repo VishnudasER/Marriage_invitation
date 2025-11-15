@@ -4,12 +4,12 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const invitationCards = [
   {
     id: 1,
-    image: '/public/images/wedding1.jpg',
+    image: '/images/wedding1.jpg',
     alt: 'Wedding Invitation Card 1',
   },
   {
     id: 2,
-    image: '/public/images/wedding2.jpg',
+    image: '/images/wedding2.jpg',
     alt: 'Wedding Invitation Card 2',
   },
 ];
