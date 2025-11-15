@@ -28,7 +28,7 @@ export default function CouplePortrait() {
           <div className="font-serif text-2xl md:text-3xl text-amber-800 space-y-1">
             <p className="text-amber-700">You are cordially invited to celebrate</p>
             <p className="text-amber-700">the wedding of</p>
-            <p className="font-semibold mt-4">Vandhana & Kathik</p>
+            <p className="font-semibold mt-4">Vandhana & Karthik</p>
           </div>
 
           <div className="pt-6 text-lg md:text-xl text-amber-700 font-light">
