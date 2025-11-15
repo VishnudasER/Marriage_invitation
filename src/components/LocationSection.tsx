@@ -24,7 +24,7 @@ const locations: Location[] = [
     address: 'Palakkad - Ponnani Rd, Palappuram, Kerala 679103',
     time: '11:00 AM - 02:00 PM',
     mapsUrl: 'https://maps.app.goo.gl/DmG7FidUhCTcphDx6',
-    icon: '🏨',
+    icon: '🕍',
   },
 ];
 
