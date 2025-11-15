@@ -49,8 +49,7 @@ export default function InvitationCarousel() {
     rounded-2xl 
     shadow-2xl 
     bg-white
-  "
->
+  ">
 
             <div
               className="flex transition-transform duration-500 ease-in-out h-full"
