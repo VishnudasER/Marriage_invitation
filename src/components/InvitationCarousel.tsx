@@ -37,8 +37,21 @@ export default function InvitationCarousel() {
           Invitation Cards
         </h2>
 
-        <div className="relative">
-          <div className="relative aspect-[3/4] md:aspect-[4/3] max-w-2xl mx-auto overflow-hidden rounded-2xl shadow-2xl bg-white">
+       <div
+  className="
+    relative 
+    aspect-[3/4] 
+    md:h-[600px] 
+    lg:h-[700px]
+    max-w-3xl 
+    mx-auto
+    overflow-hidden 
+    rounded-2xl 
+    shadow-2xl 
+    bg-white
+  "
+>
+
             <div
               className="flex transition-transform duration-500 ease-in-out h-full"
               style={{ transform: `translateX(-${currentIndex * 100}%)` }}
