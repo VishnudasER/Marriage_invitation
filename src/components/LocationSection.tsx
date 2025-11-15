@@ -12,18 +12,18 @@ interface Location {
 const locations: Location[] = [
   {
     title: 'Temple',
-    name: 'Sacred Temple',
-    address: '123 Temple Street, City Name, State 12345',
-    time: '10:00 AM - 12:00 PM',
-    mapsUrl: 'https://www.google.com/maps/search/temples+near+me',
+    name: 'Sree Chinakkathoor Bhagavathi Temple',
+    address: 'Palappuram, Ottapalam, Kerala 679103',
+    time: '07:30 AM - 08:30 AM',
+    mapsUrl: 'https://maps.app.goo.gl/BdFbsh2jCgMEJfSZ8',
     icon: '🛕',
   },
   {
     title: 'Lunch',
-    name: 'Grand Auditorium Hall',
-    address: '456 Celebration Avenue, City Name, State 12345',
-    time: '1:00 PM - 3:00 PM',
-    mapsUrl: 'https://www.google.com/maps/search/banquet+halls+near+me',
+    name: 'Surya Auditorium',
+    address: 'Palakkad - Ponnani Rd, Palappuram, Kerala 679103',
+    time: '11:00 AM - 02:00 PM',
+    mapsUrl: 'https://maps.app.goo.gl/DmG7FidUhCTcphDx6',
     icon: '🏨',
   },
 ];
