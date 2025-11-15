@@ -37,7 +37,7 @@ export default function CountdownTimer() {
   }, []);
 
   return (
-    <div className="fixed top-2 right-2 z-50 bg-white rounded-lg shadow-lg border-2 border-amber-100 p-3">
+    <div className="fixed top-1 right-1 z-50 bg-white rounded-lg shadow-lg border-2 border-amber-100 p-3">
       <div className="grid grid-cols-4 gap-2">
         {[
           { label: 'D', value: timeLeft.days },
