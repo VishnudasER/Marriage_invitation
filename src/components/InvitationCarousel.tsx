@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const invitationCards = [
   {
     id: 1,
-    image: 'public/images/Orange Gold Traditional Indian Wedding Invitation_page-0001.jpg?auto=compress&cs=tinysrgb&w=800',
+    image: 'public/images/wedding1.jpg',
     alt: 'Wedding Invitation Card 1',
   },
   {
