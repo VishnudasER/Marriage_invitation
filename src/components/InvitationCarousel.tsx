@@ -4,12 +4,12 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const invitationCards = [
   {
     id: 1,
-    image: 'src/images/Orange Gold Traditional Indian Wedding Invitation_page-0001.jpg?auto=compress&cs=tinysrgb&w=800',
+    image: 'public/images/Orange Gold Traditional Indian Wedding Invitation_page-0001.jpg?auto=compress&cs=tinysrgb&w=800',
     alt: 'Wedding Invitation Card 1',
   },
   {
     id: 2,
-    image: 'src/images/Vandhana Invitation Final_page-0001.jpg?auto=compress&cs=tinysrgb&w=800',
+    image: 'public/images/Vandhana Invitation Final_page-0001.jpg?auto=compress&cs=tinysrgb&w=800',
     alt: 'Wedding Invitation Card 2',
   },
 ];
