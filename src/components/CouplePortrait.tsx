@@ -7,7 +7,7 @@ export default function CouplePortrait() {
         <div className="mb-8 relative inline-block">
           <div className="absolute -inset-4 bg-gradient-to-br from-amber-200/40 via-yellow-100/40 to-orange-200/40 rounded-full blur-2xl"></div>
           <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto rounded-full overflow-hidden border-8 border-amber-100 shadow-2xl bg-gradient-to-br from-amber-50 to-yellow-50">
-            <img src="/home/project/src/images/Screenshot 2025-11-14 at 12.30.18.png?auto=compress&cs=tinysrgb&w=800"
+            <img src="src/images/Screenshot 2025-11-14 at 12.30.18.png?auto=compress&cs=tinysrgb&w=800"
               alt="Couple Portrait"
               className="w-full h-full object-cover"
             />
