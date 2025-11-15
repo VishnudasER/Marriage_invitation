@@ -8,7 +8,7 @@ import BlessingsSection from './components/BlessingsSection';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-amber-50 via-yellow-50 to-amber-50">
+    <div className="min-h-screenbg-white">
       <FloralAnimation />
       <MusicPlayer />
 
