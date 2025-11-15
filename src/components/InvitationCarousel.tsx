@@ -9,7 +9,7 @@ const invitationCards = [
   },
   {
     id: 2,
-    image: '/public/images/Vandhana Invitation Final_page-0001.jpg?auto=compress&cs=tinysrgb&w=800',
+    image: '/public/images/wedding2.jpg',
     alt: 'Wedding Invitation Card 2',
   },
 ];
