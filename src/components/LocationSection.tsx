@@ -16,7 +16,7 @@ const locations: Location[] = [
     address: 'Palappuram, Ottapalam, Kerala 679103',
     time: '07:45 AM - 08:30 AM',
     mapsUrl: 'https://maps.app.goo.gl/Y5XMWRLEmbBd9CWz7',
-    icon: '🕉️',
+    icon: ''',
   },
   {
     title: 'Lunch',
