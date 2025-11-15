@@ -28,9 +28,10 @@ export default function InvitationCarousel() {
   };
 
   useEffect(() => {
+    if (isPaused) return;
     const interval = setInterval(nextSlide, 10000);
     return () => clearInterval(interval);
-  }, []);
+  }, [isPaused]);
 
   return (
     <section className="py-16 px-4">
@@ -40,7 +41,12 @@ export default function InvitationCarousel() {
         </h2>
 
         <div className="relative">
-          <div className="relative aspect-[3/4]  md:h-[600px]  md:h-[600px]  max-w-3xl mx-auto overflow-hidden rounded-2xl shadow-2xl bg-white">
+          <div className="relative aspect-[3/4]  md:h-[600px]  md:h-[600px]  max-w-3xl mx-auto overflow-hidden rounded-2xl shadow-2xl bg-white"
+             className="relative aspect-[3/4] md:h-[600px] max-w-3xl mx-auto overflow-hidden rounded-2xl shadow-2xl bg-white"
+  onMouseEnter={() => setIsPaused(true)}
+  onMouseLeave={() => setIsPaused(false)}
+  onTouchStart={() => setIsPaused(true)}
+  onTouchEnd={() => setIsPaused(false)}>
             <div
               className="flex transition-transform duration-500 ease-in-out h-full"
               style={{ transform: `translateX(-${currentIndex * 100}%)` }}
