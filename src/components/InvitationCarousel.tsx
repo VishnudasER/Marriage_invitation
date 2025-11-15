@@ -34,7 +34,7 @@ export default function InvitationCarousel() {
   }, [isPaused]);
 
   return (
-    <section className="py-2 px-4">
+    <section className="py-1 px-4">
       <div className="max-w-4xl mx-auto">
 
         <div className="relative">
