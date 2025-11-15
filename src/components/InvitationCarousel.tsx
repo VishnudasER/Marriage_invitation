@@ -42,7 +42,6 @@ export default function InvitationCarousel() {
 
         <div className="relative">
           <div className="relative aspect-[3/4]  md:h-[600px]  md:h-[600px]  max-w-3xl mx-auto overflow-hidden rounded-2xl shadow-2xl bg-white"
-             className="relative aspect-[3/4] md:h-[600px] max-w-3xl mx-auto overflow-hidden rounded-2xl shadow-2xl bg-white"
   onMouseEnter={() => setIsPaused(true)}
   onMouseLeave={() => setIsPaused(false)}
   onTouchStart={() => setIsPaused(true)}
