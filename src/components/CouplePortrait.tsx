@@ -7,8 +7,7 @@ export default function CouplePortrait() {
         <div className="mb-8 relative inline-block">
           <div className="absolute -inset-4 bg-gradient-to-br from-amber-200/40 via-yellow-100/40 to-orange-200/40 rounded-full blur-2xl"></div>
           <div className="relative w-64 h-64 md:w-80 md:h-80 mx-auto rounded-full overflow-hidden border-8 border-amber-100 shadow-2xl bg-gradient-to-br from-amber-50 to-yellow-50">
-            <img
-              src="https://drive.google.com/file/d/1-y-s4gEaNrrgTN-pQ6j2GuzLRt7xHcof/view?auto=compress&cs=tinysrgb&w=800"
+            <img src="https://www.brides.com/thmb/0r4IygjzVN2zffMhcNImVwtJFdc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/marriage-pose-photo-recirc-kyle-john-1-29-4f97523aa049471992292e8d6ddc41ee.jpg?auto=compress&cs=tinysrgb&w=800"
               alt="Couple Portrait"
               className="w-full h-full object-cover"
             />
