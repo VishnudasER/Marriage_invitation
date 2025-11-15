@@ -34,11 +34,8 @@ export default function InvitationCarousel() {
   }, [isPaused]);
 
   return (
-    <section className="py-16 px-4">
+    <section className="py-2 px-4">
       <div className="max-w-4xl mx-auto">
-        <h2 className="font-serif text-3xl md:text-4xl text-center text-amber-900 mb-12">
-          Invitation Cards
-        </h2>
 
         <div className="relative">
           <div className="relative aspect-[3/4]  md:h-[600px]  md:h-[600px]  max-w-3xl mx-auto overflow-hidden rounded-2xl shadow-2xl bg-white"
