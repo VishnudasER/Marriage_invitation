@@ -16,6 +16,8 @@ const invitationCards = [
 
 export default function InvitationCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
+
 
   const nextSlide = () => {
     setCurrentIndex((prev) => (prev + 1) % invitationCards.length);
@@ -26,7 +28,7 @@ export default function InvitationCarousel() {
   };
 
   useEffect(() => {
-    const interval = setInterval(nextSlide, 5000);
+    const interval = setInterval(nextSlide, 10000);
     return () => clearInterval(interval);
   }, []);
 
