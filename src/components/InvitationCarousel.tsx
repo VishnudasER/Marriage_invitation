@@ -9,7 +9,7 @@ const invitationCards = [
   },
   {
     id: 2,
-    image: '/images/Malayalam compressed.jpg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/Malayam compressed.jpg?auto=compress&cs=tinysrgb&w=800',
     alt: 'Wedding Invitation Card 2',
   },
 ];
