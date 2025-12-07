@@ -4,12 +4,12 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const invitationCards = [
   {
     id: 1,
-    image: '/images/English comp.jpg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/English compressed.jpg?auto=compress&cs=tinysrgb&w=800',
     alt: 'Wedding Invitation Card 1',
   },
   {
     id: 2,
-    image: '/images/Malayam compressed.jpg?auto=compress&cs=tinysrgb&w=800',
+    image: '/images/Malayam comp.jpg?auto=compress&cs=tinysrgb&w=800',
     alt: 'Wedding Invitation Card 2',
   },
 ];
